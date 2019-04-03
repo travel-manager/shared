@@ -6,9 +6,9 @@ PUT new data
 
 trips/
 GET one by _id
-GET all by datestart and dateend and public
-GET all by lat and long
-POST new Trip	// returns _id of created trip
+GET all by datestart and dateend and public   // datestart > [datestartparameter] AND dateend < [dateendparameter] AND public == true
+GET all by lat and long   // lat == [latparameter] AND long == [longparameter]
+POST new Trip	  // returns _id of created trip
 PUT new data
 DELETE one by _id
 
