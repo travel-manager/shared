@@ -1,0 +1,44 @@
+travellers/
+GET one by _id
+GET all by username
+POST new Traveller
+PUT new data
+
+trips/
+GET one by _id
+GET all by datestart and dateend and public
+GET all by lat and long
+POST new Trip	// returns _id of created trip
+PUT new data
+DELETE one by _id
+
+memberships/
+GET one by travellerId
+GET all by tripId
+GET all by travellerId and tripId
+POST new Membership
+DELETE one by _id
+DELETE all by tripId
+
+notifications/
+GET all by tripId
+POST new Notification	// server adds timestamp 
+DELETE all by tripId
+
+markers/
+GET one by _id
+GET all by tripId
+POST new Marker
+DELETE one by _id
+DELETE all by tripId
+
+transactions/
+GET all by payer
+GET all by freeloader
+POST new Transaction	// server adds timestamp
+DELETE one by _id
+
+messages/
+GET all by tripId
+POST new Message	// server adds timestamp
+DELETE all by tripId
