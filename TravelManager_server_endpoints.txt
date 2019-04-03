@@ -38,7 +38,7 @@ GET all by freeloader
 POST new Transaction	// server adds timestamp
 DELETE one by _id
 
-messages/
+messages/   //  may change if going socket-based?
 GET all by tripId
 POST new Message	// server adds timestamp
 DELETE all by tripId
