@@ -1,44 +1,39 @@
 travellers/
-- [ ] GET one by _id
+- [x] GET one by _id
 - [ ] GET all by username
-- [ ] POST new Traveller
-- [ ] PUT new data
+- [x] POST new Traveller
+- [x] PUT new data
 
 trips/
-- [ ] GET one by _id
+- [x] GET one by _id
 - [ ] GET all by datestart and dateend and public   // datestart > [datestartparameter] AND dateend < [dateendparameter] AND public == true
 - [ ] GET all by lat and long   // lat == [latparameter] AND long == [longparameter]
-- [ ] POST new Trip	  // returns _id of created trip
-- [ ] PUT new data
-- [ ] DELETE one by _id
+- [x] POST new Trip	  // returns _id of created trip
+- [x] PUT new data
+- [x] DELETE one by _id
 
 memberships/
-- [ ] GET one by travellerId
+- [x] GET one by travellerId
 - [ ] GET all by tripId
 - [ ] GET all by travellerId and tripId
-- [ ] POST new Membership
-- [ ] DELETE one by _id
+- [x] POST new Membership
+- [x] DELETE one by _id
 - [ ] DELETE all by tripId
 
 notifications/
 - [ ] GET all by tripId
-- [ ] POST new Notification	// server adds timestamp 
+- [x] POST new Notification	// server adds timestamp 
 - [ ] DELETE all by tripId
 
 markers/
-- [ ] GET one by _id
+- [x] GET one by _id
 - [ ] GET all by tripId
-- [ ] POST new Marker
-- [ ] DELETE one by _id
+- [x] POST new Marker
+- [x] DELETE one by _id
 - [ ] DELETE all by tripId
 
 transactions/
 - [ ] GET all by payer and tripId
 - [ ] GET all by freeloader and tripId
-- [ ] POST new Transaction	// server adds timestamp
-- [ ] DELETE one by _id
-
-messages/   //  may change if going socket-based?
-- [ ] GET all by tripId
-- [ ] POST new Message	// server adds timestamp
-- [ ] DELETE all by tripId
+- [x] POST new Transaction	// server adds timestamp
+- [x] DELETE one by _id
